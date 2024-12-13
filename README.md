@@ -76,6 +76,63 @@ Berikut adalah visualisasi repositori proyek ini.
 - Struktur folder:
   ![Struktur Folder](asset/struktur.jpg)
 
+  ## Struktur File
+
+### 1. `child.c`
+
+#### Fungsi:
+Mengelola proses anak yang menerima dan memproses koneksi dari klien.
+
+#### Proses:
+- **`spawn_child`**: Membuat proses anak menggunakan `fork()`.
+- **`child_process`**: Menangani permintaan klien pada proses anak, menerima koneksi dan memprosesnya.
+- **`monitor_children`**: Memantau proses anak untuk memastikan jika salah satu mati, proses tersebut akan di-restart.
+
+### 2. `log.c`
+
+#### Fungsi:
+Mengelola pencatatan log aplikasi.
+
+#### Proses:
+- **`log_init`**: Inisialisasi file log.
+- **`log_close`**: Menutup file log setelah digunakan.
+- **`log_message`**: Mencatat pesan ke file log dengan timestamp dan PID.
+
+### 3. `signal_handler.c`
+
+#### Fungsi:
+Menangani sinyal SIGTERM dan SIGINT untuk menghentikan server secara aman.
+
+#### Proses:
+- **`signal_handler`**: Menangani sinyal yang diterima, mengubah status variabel `keep_running` untuk mengakhiri server.
+
+### 4. `client.c`
+
+#### Fungsi:
+Mengelola komunikasi dengan klien.
+
+#### Proses:
+- **`handle_client`**: Menerima permintaan dari klien, memprosesnya, dan mengirim respons kembali ke klien.
+
+### 5. `url_decoder.c`
+
+#### Fungsi:
+Mendecode URL yang diterima dari klien.
+
+#### Proses:
+- **`url_decode`**: Mengubah URL yang di-encode (misalnya, mengganti `%20` dengan spasi) menjadi bentuk yang dapat dibaca.
+
+### 6. `main.c`
+
+#### Fungsi:
+Titik awal dari server, menginisialisasi server socket, menangani sinyal, dan mengelola proses anak.
+
+#### Proses:
+- Membuat socket server dan mengikatnya ke alamat IP dan port.
+- Menangani koneksi yang masuk dengan mendengarkan permintaan dari klien.
+- Membuat dan memantau proses anak untuk menangani koneksi dari klien.
+- Menghentikan server dengan aman saat menerima sinyal.
+
 ---
 
 ## Alur Koneksi Klien

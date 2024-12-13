@@ -62,6 +62,25 @@ Berikut adalah visualisasi repositori proyek ini.
 Berikut adalah diagram alur koneksi klien ke server:
 ![Alur Koneksi Klien](asset/struktur-alur-koneksi-client.jpg)
 
+### Penjelasan Alur Koneksi Klien Berdasarkan Gambar
+
+1. **Client Start**: Proses dimulai ketika klien memulai operasi dan bersiap untuk melakukan komunikasi dengan server.
+2. **Establish Connection to Server**: Klien membuat koneksi ke server melalui protokol tertentu, seperti TCP, untuk memungkinkan pengiriman permintaan HTTP.
+3. **Send HTTP Request**: Klien mengirimkan permintaan HTTP ke server. Permintaan ini dapat berupa metode HTTP seperti GET, POST, PUT, atau DELETE.
+4. **Request Type?**: Server memeriksa jenis permintaan yang dikirimkan oleh klien dan menentukan tindakan yang sesuai:
+    - **GET**: Server mengembalikan data yang diminta oleh klien.
+    - **POST**: Server memproses data yang dikirim oleh klien, biasanya untuk membuat atau memodifikasi data pada server, lalu memberikan respons.
+    - **PUT**: Server memperbarui sumber daya berdasarkan data yang dikirim oleh klien dan memberikan respons.
+    - **DELETE**: Server menghapus sumber daya yang diminta klien dan memberikan respons.
+    - **Unsupported Method**: Jika metode permintaan tidak dikenali atau tidak didukung, server mengembalikan pesan kesalahan.
+5. **Client Receives Response**: Klien menerima respons dari server, baik berupa data, konfirmasi keberhasilan, atau pesan kesalahan, tergantung pada jenis permintaan.
+6. **Close Connection**: Setelah proses komunikasi selesai, koneksi antara klien dan server ditutup.
+7. **Client End**: Proses selesai dan klien berhenti beroperasi.
+
+**Catatan**:
+- Setiap jenis permintaan (GET, POST, PUT, DELETE) memiliki fungsi spesifik yang ditangani oleh server.
+- Penanganan kesalahan (error handling) terjadi jika server tidak mendukung metode yang diminta klien, yang biasanya menghasilkan kode status HTTP seperti 405 Method Not Allowed.
+
 ---
 
 ## Proses Server

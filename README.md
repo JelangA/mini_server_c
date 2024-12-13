@@ -1,4 +1,3 @@
-
 # HTTP Server Project 🚀
 
 Proyek ini mengimplementasikan server HTTP sederhana menggunakan bahasa C. Server ini mendukung fungsionalitas seperti routing, parsing parameter, dan penyajian file statis.
@@ -53,6 +52,8 @@ Berikut adalah visualisasi repositori proyek ini.
 ## Struktur File 📁
 
 - `server.c`: Titik masuk utama server. Bertanggung jawab untuk menangani koneksi klien, parsing request, dan dispatching request ke fungsi handler yang sesuai.
+- Struktur folder:
+  ![Struktur Folder](asset/struktur.jpg)
 
 ---
 
@@ -94,47 +95,3 @@ Server ini mendukung pengujian metode HTTP menggunakan `curl` untuk mengirim req
 Contoh:
 ```bash
 curl http://localhost:8081
-```
-
-### Metode POST
-Contoh:
-```bash
-curl -X POST http://localhost:8081 -d "key=value"
-```
-
----
-
-## Menjalankan Unit Test 🧪
-
-Unit test disediakan untuk memastikan fungsi-fungsi server berjalan sesuai harapan.
-
-1. **Masuk ke direktori test:**
-    ```bash
-    cd tests
-    ```
-
-2. **Jalankan Test:**
-    ```bash
-    ./run_tests
-    ```
-
----
-
-## Alur Program 🌀
-
-Berikut adalah diagram alur program:
-
-1. **Inisialisasi Server:** Server diinisialisasi pada port yang telah ditentukan.
-2. **Menerima Koneksi:** Server mendengarkan permintaan masuk dari klien.
-3. **Parsing Request:** Memproses header dan body dari request HTTP.
-4. **Forking:** Membuat proses anak untuk menangani permintaan.
-5. **Pengiriman Respon:** Mengirimkan respon ke klien berdasarkan permintaan.
-
----
-
-## Penulis ✍️
-
-- Fanza Atsila Fizarli (231524043)
-- Jelang Anugrah Raharjo (231524046)
-
-[Back to top](#top)

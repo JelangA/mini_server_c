@@ -69,6 +69,38 @@ Berikut adalah diagram alur koneksi klien ke server:
 Berikut adalah diagram proses server:
 ![Proses Server](asset/struktur-proses-server.jpg)
 
+### Alur Utama Server
+
+1. **Start**: Proses dimulai dengan inisialisasi server.
+2. **Set Up Signal Handlers**: Server mengatur handler untuk menangani sinyal seperti SIGTERM atau SIGINT, memungkinkan server untuk melakukan shutdown dengan bersih ketika menerima sinyal penghentian.
+3. **Open Log File**: Membuka file log untuk mencatat aktivitas server, seperti permintaan klien atau kesalahan.
+4. **Create Server Socket**: Membuat socket server yang bertindak sebagai endpoint untuk menerima koneksi dari klien.
+5. **Bind Server Socket**: Socket server diikat ke alamat dan port tertentu sehingga klien dapat menghubunginya.
+6. **Start Listening on Socket**: Server mulai mendengarkan koneksi klien pada port yang ditentukan.
+
+### Proses Anak (Child Process)
+
+Ketika klien terhubung, server membuat proses anak untuk menangani koneksi tersebut. Alur ini mencakup:
+1. **Accept Client Connection**: Proses anak menerima koneksi klien menggunakan socket yang disediakan oleh server.
+2. **Set Socket Timeouts**: Proses anak mengatur waktu timeout untuk koneksi klien agar tidak menggantung terlalu lama.
+3. **Handle Client Request**: Permintaan klien diproses (misalnya, membaca data dari klien, menulis respons).
+4. **Log Client Info**: Informasi klien (seperti alamat IP dan port) dicatat ke dalam file log.
+5. **Close Client Connection**: Setelah permintaan klien selesai diproses, koneksi dengan klien ditutup.
+
+### Manajemen Proses Anak
+
+Proses utama server juga menangani proses anak untuk menjaga stabilitas server:
+1. **Spawn Child Processes**: Server membuat beberapa proses anak (fork) untuk menangani klien secara paralel.
+2. **Monitor Children**: Proses utama memantau proses anak untuk mendeteksi jika ada yang berhenti atau crash:
+    - **SIGTERM atau SIGINT**: Jika server menerima sinyal penghentian, server menghentikan semua proses anak dan melakukan shutdown bersih.
+    - **Child Crash Detected**: Jika salah satu proses anak mati, server membuat ulang proses anak tersebut agar tetap tersedia untuk melayani klien.
+
+### Ringkasan Alur
+
+- Proses utama server bertugas mendengarkan koneksi dan mengelola proses anak.
+- Proses anak bertanggung jawab untuk menangani setiap koneksi klien secara individu.
+- Jika ada gangguan (misalnya sinyal penghentian atau proses anak crash), proses utama bertindak untuk menangani atau memulihkan situasi tersebut.
+
 ---
 
 ## Persiapan Awal 🛠️

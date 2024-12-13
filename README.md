@@ -41,12 +41,26 @@ Berikut adalah visualisasi repositori proyek ini.
 
 ## Fitur 🌟
 
-- **Penanganan Request HTTP (GET, POST)**: Mendukung berbagai metode HTTP.
-- **Concurrency dengan `fork`**: Mengelola proses anak untuk mendukung banyak koneksi.
-- **Logging dan Debugging**: Menyediakan logging aktivitas server untuk memudahkan debugging.
-- **Unit Testing**: Validasi fungsi server dengan unit testing.
-- **Penanganan Zombie Process**: Memastikan proses zombie tidak muncul dengan pengelolaan sumber daya yang tepat.
-
+- **Metode HTTP:** Mendukung empat metode HTTP dasar yaitu `GET`, `POST`, `PUT`, dan `DELETE`.
+- **Logging:** 
+  - Mencatat aktivitas server seperti pemrosesan permintaan, pengiriman respons, serta informasi klien (alamat IP dan port).
+  - Mencatat timestamp, PID (Process ID), dan informasi klien untuk setiap koneksi.
+  - Log dicatat ke dalam file `server.log`.
+- **Multiprocessing:** 
+  - Menggunakan proses anak (fork) untuk menangani banyak klien secara paralel.
+  - Server membatasi jumlah proses anak dengan `NUM_CHILDREN` yang didefinisikan dalam kode.
+  - Setiap proses anak menangani koneksi klien secara independen untuk meningkatkan kinerja.
+- **Backlog:** 
+  - Menggunakan opsi `BACKLOG` untuk menentukan antrian koneksi yang belum diterima.
+  - Server mendengarkan pada port yang ditentukan (`PORT = 8080`).
+- **Timeout Koneksi:** 
+  - Mengatur timeout untuk setiap koneksi klien dengan `setsockopt()` pada socket.
+  - Timeout diterapkan pada pengiriman dan penerimaan data.
+- **URL Decoding:** 
+  - Menangani decoding URL untuk mengonversi karakter-karakter yang dienkode (seperti `%20` menjadi spasi).
+- **Graceful Shutdown:** 
+  - Menangani sinyal `SIGTERM` dan `SIGINT` untuk melakukan shutdown yang bersih.
+  - Proses anak akan diberhentikan secara tepat saat server dihentikan.
 ---
 
 ## Struktur File 📁

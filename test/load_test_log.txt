@@ -1,0 +1,602 @@
+=== Mulai Pengujian Koneksi ===
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:47
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:47 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+2024-12-13 04:36:48 - Permintaan berhasil - Response: Connection to 127.0.0.1 8080 port [tcp/http-alt] succeeded!
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 28
+
+{"message": "GET received!"} - Selesai pada 2024-12-13 04:36:48
+Pengujian selesai!

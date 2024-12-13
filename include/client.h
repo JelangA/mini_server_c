@@ -3,7 +3,11 @@
 
 #include <netinet/in.h>
 
+// Fungsi untuk menangani permintaan klien
+// Parameter:
+// - client_socket: socket klien yang terhubung
+// - client_addr: informasi alamat klien
 void handle_client(int client_socket, struct sockaddr_in *client_addr);
 
-#endif
+#endif // CLIENT_H
 

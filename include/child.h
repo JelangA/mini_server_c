@@ -1,11 +1,17 @@
 #ifndef CHILD_H
 #define CHILD_H
 
-#include <netinet/in.h>
+// Fungsi untuk membuat proses anak baru
+// Parameter:
+// - server_socket: socket server yang akan digunakan
+// - child_id: ID proses anak
+void spawn_child(int server_socket, int child_id);
 
-void child_process(int server_socket);
-void spawn_child(int server_socket, int index);
+// Fungsi untuk memantau proses anak
+// Jika anak mati, fungsi ini akan membuat ulang proses anak
+// Parameter:
+// - server_socket: socket server yang akan digunakan
 void monitor_children(int server_socket);
 
-#endif
+#endif // CHILD_H
 

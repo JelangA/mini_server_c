@@ -1,13 +1,18 @@
 #ifndef LOG_H
 #define LOG_H
 
-#include <stdio.h>
-#include <netinet/in.h>
+// Inisialisasi file log
+// Parameter:
+// - filename: nama file log yang akan digunakan
+void log_init(const char *filename);
 
-extern FILE *log_file;
+// Menutup file log
+void log_close();
 
+// Menulis pesan ke file log dengan format timestamp dan PID
+// Parameter:
+// - message: pesan yang akan dicatat di log
 void log_message(const char *message);
-void log_client_info(struct sockaddr_in *client_addr, const char *message);
 
-#endif
+#endif // LOG_H
 

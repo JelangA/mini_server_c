@@ -1,0 +1,75 @@
+[2024-12-13 01:25:09] [PID: 149907] Server starting
+[2024-12-13 01:25:09] [PID: 149907] Server is listening
+[2024-12-13 01:25:09] [PID: 149907] Child process spawned
+[2024-12-13 01:25:09] [PID: 149908] Child process started
+[2024-12-13 01:25:09] [PID: 149907] Child process spawned
+[2024-12-13 01:25:09] [PID: 149909] Child process started
+[2024-12-13 01:25:09] [PID: 149907] Child process spawned
+[2024-12-13 01:25:09] [PID: 149910] Child process started
+[2024-12-13 01:25:09] [PID: 149907] Child process spawned
+[2024-12-13 01:25:09] [PID: 149911] Child process started
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] New client connected
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] Client request received
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] Processing client request
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] Handling POST request
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] Response sent to client
+[2024-12-13 01:25:19] [PID: 149908] [Client: 36.69.141.192:21989] Client connection closed
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] New client connected
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] Client request received
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] Processing client request
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] Handling POST request
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] Response sent to client
+[2024-12-13 01:25:55] [PID: 149909] [Client: 36.69.141.192:19697] Client connection closed
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] New client connected
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] Client request received
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] Processing client request
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] Handling GET request
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] Response sent to client
+[2024-12-13 01:26:13] [PID: 149910] [Client: 36.69.141.192:20006] Client connection closed
+[2024-12-13 01:26:21] [PID: 149907] Server shutting down
+[2024-12-13 04:27:36] [PID: 153154] Server starting
+[2024-12-13 04:27:36] [PID: 153154] Error binding socket
+[2024-12-13 04:27:51] [PID: 153158] Server starting
+[2024-12-13 04:27:51] [PID: 153158] Server is listening
+[2024-12-13 04:27:51] [PID: 153158] Child process spawned
+[2024-12-13 04:27:51] [PID: 153159] Child process started
+[2024-12-13 04:27:51] [PID: 153160] Child process started
+[2024-12-13 04:27:51] [PID: 153158] Child process spawned
+[2024-12-13 04:27:51] [PID: 153158] Child process spawned
+[2024-12-13 04:27:51] [PID: 153158] Child process spawned
+[2024-12-13 04:27:51] [PID: 153161] Child process started
+[2024-12-13 04:27:51] [PID: 153162] Child process started
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] New client connected
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] Client request received
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] Processing client request
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] Handling GET request
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] Response sent to client
+[2024-12-13 04:28:03] [PID: 153159] [Client: 103.209.131.66:50240] Client connection closed
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] New client connected
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] Client request received
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] Processing client request
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] Handling GET request
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] Response sent to client
+[2024-12-13 04:28:21] [PID: 153160] [Client: 103.209.131.66:51057] Client connection closed
+[2024-12-13 04:28:21] [PID: 153161] [Client: 103.209.131.66:51058] New client connected
+[2024-12-13 04:28:22] [PID: 153161] [Client: 103.209.131.66:51058] Client request received
+[2024-12-13 04:28:22] [PID: 153161] [Client: 103.209.131.66:51058] Processing client request
+[2024-12-13 04:28:22] [PID: 153161] [Client: 103.209.131.66:51058] Handling GET request
+[2024-12-13 04:28:22] [PID: 153161] [Client: 103.209.131.66:51058] Response sent to client
+[2024-12-13 04:28:22] [PID: 153161] [Client: 103.209.131.66:51058] Client connection closed
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] New client connected
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] Client request received
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] Processing client request
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] Handling POST request
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] Response sent to client
+[2024-12-13 04:29:05] [PID: 153162] [Client: 103.209.131.66:51099] Client connection closed
+[2024-12-13 04:30:32] [PID: 153158] Server shutting down
+[2024-12-13 04:30:40] [PID: 153160] [Client: 141.98.11.48:43328] New client connected
+[2024-12-13 04:30:41] [PID: 153160] [Client: 141.98.11.48:43328] Client request received
+[2024-12-13 04:30:41] [PID: 153160] [Client: 141.98.11.48:43328] Processing client request
+[2024-12-13 04:30:41] [PID: 153160] [Client: 141.98.11.48:43328] Unknown HTTP method
+[2024-12-13 04:30:41] [PID: 153160] [Client: 141.98.11.48:43328] Response sent to client
+[2024-12-13 04:30:41] [PID: 153160] [Client: 141.98.11.48:43328] Client connection closed
+[2024-12-13 04:30:41] [PID: 153160] Child process exiting
+[2024-12-13 04:31:42] [PID: 153218] Server starting
+[2024-12-13 04:31:42] [PID: 153218] Error binding socket

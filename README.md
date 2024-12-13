@@ -57,6 +57,20 @@ Berikut adalah visualisasi repositori proyek ini.
 
 ---
 
+## Alur Koneksi Klien
+
+Berikut adalah diagram alur koneksi klien ke server:
+![Alur Koneksi Klien](asset/struktur-alur-koneksi-client.jpg)
+
+---
+
+## Proses Server
+
+Berikut adalah diagram proses server:
+![Proses Server](asset/struktur-proses-server.jpg)
+
+---
+
 ## Persiapan Awal 🛠️
 
 ### Prasyarat ⚙️

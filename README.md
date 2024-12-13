@@ -21,46 +21,53 @@ Proyek ini mengimplementasikan server HTTP sederhana menggunakan bahasa C. Serve
 
 ## Daftar Isi
 
-1. [Visualisasi Repositori 📊](#visualisasi-repositori)
-2. [Fitur 🌟](#fitur)
-3. [Struktur File 📁](#struktur-file)
-4. [Persiapan Awal 🛠️](#persiapan-awal)
+
+1. [Persiapan Awal 🛠️](#persiapan-awal)
     - [Prasyarat ⚙️](#prasyarat)
     - [Instalasi 💾](#instalasi)
+2. [Visualisasi Repositori 📊](#visualisasi-repositori)
+3. [Menjalankan Unit Test 🧪](#menjalankan-unit-test)
+4. [Struktur File 📁](#struktur-file)
 5. [Penanganan Request HTTP 📡](#penanganan-request-http)
-6. [Menjalankan Unit Test 🧪](#menjalankan-unit-test)
+6. [Fitur 🌟](#fitur)
 7. [Alur Program 🌀](#alur-program)
 8. [Penulis ✍️](#penulis)
 
 ---
 
+---
+
+## Persiapan Awal 🛠️
+
+### Prasyarat ⚙️
+
+1. Windows Subsystem for Linux (WSL) (Opsional untuk pengguna Windows).
+2. GCC Compiler.
+
+### Instalasi 💾
+
+1. **Install WSL (Opsional):**
+    - [Panduan Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+2. **Clone Repositori:**
+    ```bash
+    git clone https://github.com/username/repository.git
+    cd repository
+    ```
+
+3. **Build Proyek:**
+    ```bash
+    make
+    ```
+
+4. **Jalankan Server:**
+    ```bash
+    ./server
+    ```
+
 ## Visualisasi Repositori 📊
 Berikut adalah visualisasi repositori proyek ini.
 
----
-
-## Fitur 🌟
-
-- **Metode HTTP:** Mendukung empat metode HTTP dasar yaitu `GET`, `POST`, `PUT`, dan `DELETE`.
-- **Logging:** 
-  - Mencatat aktivitas server seperti pemrosesan permintaan, pengiriman respons, serta informasi klien (alamat IP dan port).
-  - Mencatat timestamp, PID (Process ID), dan informasi klien untuk setiap koneksi.
-  - Log dicatat ke dalam file `server.log`.
-- **Multiprocessing:** 
-  - Menggunakan proses anak (fork) untuk menangani banyak klien secara paralel.
-  - Server membatasi jumlah proses anak dengan `NUM_CHILDREN` yang didefinisikan dalam kode.
-  - Setiap proses anak menangani koneksi klien secara independen untuk meningkatkan kinerja.
-- **Backlog:** 
-  - Menggunakan opsi `BACKLOG` untuk menentukan antrian koneksi yang belum diterima.
-  - Server mendengarkan pada port yang ditentukan (`PORT = 8080`).
-- **Timeout Koneksi:** 
-  - Mengatur timeout untuk setiap koneksi klien dengan `setsockopt()` pada socket.
-  - Timeout diterapkan pada pengiriman dan penerimaan data.
-- **URL Decoding:** 
-  - Menangani decoding URL untuk mengonversi karakter-karakter yang dienkode (seperti `%20` menjadi spasi).
-- **Graceful Shutdown:** 
-  - Menangani sinyal `SIGTERM` dan `SIGINT` untuk melakukan shutdown yang bersih.
-  - Proses anak akan diberhentikan secara tepat saat server dihentikan.
 ---
 
 ## Struktur File 📁
@@ -136,36 +143,6 @@ Proses utama server juga menangani proses anak untuk menjaga stabilitas server:
 
 ---
 
-## Persiapan Awal 🛠️
-
-### Prasyarat ⚙️
-
-1. Windows Subsystem for Linux (WSL) (Opsional untuk pengguna Windows).
-2. GCC Compiler.
-
-### Instalasi 💾
-
-1. **Install WSL (Opsional):**
-    - [Panduan Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-
-2. **Clone Repositori:**
-    ```bash
-    git clone https://github.com/username/repository.git
-    cd repository
-    ```
-
-3. **Build Proyek:**
-    ```bash
-    make
-    ```
-
-4. **Jalankan Server:**
-    ```bash
-    ./server
-    ```
-
----
-
 ## Penanganan Request HTTP 📡
 
 Server ini mendukung pengujian metode HTTP menggunakan `curl` untuk mengirim request ke server yang berjalan.
@@ -188,4 +165,29 @@ Contoh:
 ```bash
 curl -X DELETE http://localhost:8081 -d "key=value"
 ```
+
+---
+
+## Fitur 🌟
+
+- **Metode HTTP:** Mendukung empat metode HTTP dasar yaitu `GET`, `POST`, `PUT`, dan `DELETE`.
+- **Logging:** 
+  - Mencatat aktivitas server seperti pemrosesan permintaan, pengiriman respons, serta informasi klien (alamat IP dan port).
+  - Mencatat timestamp, PID (Process ID), dan informasi klien untuk setiap koneksi.
+  - Log dicatat ke dalam file `server.log`.
+- **Multiprocessing:** 
+  - Menggunakan proses anak (fork) untuk menangani banyak klien secara paralel.
+  - Server membatasi jumlah proses anak dengan `NUM_CHILDREN` yang didefinisikan dalam kode.
+  - Setiap proses anak menangani koneksi klien secara independen untuk meningkatkan kinerja.
+- **Backlog:** 
+  - Menggunakan opsi `BACKLOG` untuk menentukan antrian koneksi yang belum diterima.
+  - Server mendengarkan pada port yang ditentukan (`PORT = 8080`).
+- **Timeout Koneksi:** 
+  - Mengatur timeout untuk setiap koneksi klien dengan `setsockopt()` pada socket.
+  - Timeout diterapkan pada pengiriman dan penerimaan data.
+- **URL Decoding:** 
+  - Menangani decoding URL untuk mengonversi karakter-karakter yang dienkode (seperti `%20` menjadi spasi).
+- **Graceful Shutdown:** 
+  - Menangani sinyal `SIGTERM` dan `SIGINT` untuk melakukan shutdown yang bersih.
+  - Proses anak akan diberhentikan secara tepat saat server dihentikan.
 

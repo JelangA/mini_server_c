@@ -95,3 +95,18 @@ Server ini mendukung pengujian metode HTTP menggunakan `curl` untuk mengirim req
 Contoh:
 ```bash
 curl http://localhost:8081
+```
+
+### Metode POST
+Contoh:
+```bash
+curl -X POST http://localhost:8081 -d "key=value"
+```
+
+
+### Metode DELETE
+Contoh:
+```bash
+curl -X DELETE http://localhost:8081 -d "key=value"
+```
+
